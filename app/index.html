@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +7,76 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-
-
-
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <picture class="logo__img">
+              <source srcset="images/logo.png" media="(max-width: 600px)" />
+              <img src="images/logo.png" alt="logo" />
+            </picture>
+          </a>
+          <nav class="menu">
+            <ul class="menu">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О ДРОНЕ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ПРЕИМУЩЕСТВА</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ХАРАКТЕРИСТИКИ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ВОПРОСЫ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__info">
+            <button class="header__btn">купить</button>
+            <a class="header__phone" href="tel:+74955676767"
+              >+7 (495) 567 67 67</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <h1 class="about__title">Mavic 2 Pro</h1>
+          <img src="images/mavic.png" alt="mavic" />
+          <p class="about__text">
+            Квадрокоптер Dji Mavic 2 Pro с профессиональной камерой Hasselblad
+          </p>
+          <ul class="about__social-list">
+            <li class="about__social-item">
+              <a class="about__social-link" href="#">
+                <img src="images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="about__social-link" href="#">
+                <img src="images/youtube.svg" alt="youtube">
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="about__social-link" href="#">
+                <img src="images/instagram.svg" alt="instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="scroll__btn">
+        <a href="#">
+          <img src="images/arrow-down.svg" alt="arrow-down" />
+        </a>
+      </div>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
