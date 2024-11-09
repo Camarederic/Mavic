@@ -1,13 +1,12 @@
 @import "vars";
-@import 'mixins';
+@import "mixins";
 @import "fonts";
 @import "reset";
 @import "global";
 @import "libs";
-@import 'blocks/header';
-@import 'blocks/top';
-@import 'blocks/about';
-
-
+@import "blocks/header";
+@import "blocks/top";
+@import "blocks/about";
+@import "blocks/advantages";
 
 @import "media";
