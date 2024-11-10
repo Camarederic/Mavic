@@ -39,10 +39,10 @@ ul[class] {
   list-style: none;
 }
 
-img {
+/* img {
   max-width: 100%;
   display: block;
-}
+} */
 
 input,
 button,
@@ -53,4 +53,5 @@ select {
 
 a {
   text-decoration: none;
+  color: inherit;
 }

@@ -1,0 +1,40 @@
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  position: relative;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-section {
+  min-height: 100vh;
+  background-image: url("../images/page-section.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 74px 0 50px;
+}
+
+.title {
+}
+
+.scroll {
+  &__btn {
+    padding: 13px 0 30px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

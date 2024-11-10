@@ -1,9 +1,39 @@
 @font-face {
-  font-family: "FiraSans-Thin";
-  font-weight: 100;
+  font-family: "FunnelDisplay-Light";
+  font-weight: 300;
   font-style: normal;
-  src: local("FiraSans-Thin"),
-    url("../fonts/FiraSans-Thin.woff2") format("woff2"),
-    url("../fonts/FiraSans-Thin.woff") format("woff");
+  src: local("FunnelDisplay-Light"),
+    url("../fonts/FunnelDisplay-Light.woff2") format("woff2"),
+    url("../fonts/FunnelDisplay-Light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FunnelDisplay-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("FunnelDisplay-Regular"),
+    url("../fonts/FunnelDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/FunnelDisplay-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FunnelDisplay-SemiBold";
+  font-weight: 600;
+  font-style: normal;
+  src: local("FunnelDisplay-SemiBold"),
+    url("../fonts/FunnelDisplay-SemiBold.woff2") format("woff2"),
+    url("../fonts/FunnelDisplay-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FunnelDisplay-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: local("FunnelDisplay-Bold"),
+    url("../fonts/FunnelDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/FunnelDisplay-Bold.woff") format("woff");
   font-display: swap;
 }
