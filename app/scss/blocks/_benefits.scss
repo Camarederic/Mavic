@@ -1,0 +1,96 @@
+.benefits {
+  &__title {
+    margin-bottom: 65px;
+  }
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+  }
+  &__item {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    &:nth-child(even) {
+      margin-left: 40px;
+      transform: translateY(30px);
+    }
+  }
+  &__item-1 {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 50px;
+      width: 260px;
+      background-image: url("../images/line-1.svg");
+      right: -70px;
+      bottom: 50px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+  }
+  &__item-2 {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 50px;
+      width: 465px;
+      background-image: url("../images/line-2.svg");
+      right: 537px;
+      top: 140px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+  }
+  &__item-3 {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 50px;
+      width: 240px;
+      background-image: url("../images/line-3.svg");
+      left: 380px;
+      top: 45px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+  }
+  &__num {
+    font-size: 36px;
+    line-height: 41px;
+    @extend %ubuntu-700;
+    margin-right: 10px;
+  }
+  &__img {
+    position: relative;
+    margin-right: 32px;
+    z-index: 5;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 195px;
+      height: 130px;
+      border: 2px solid #fff;
+      top: -12px;
+      right: -12px;
+      z-index: -1;
+    }
+  }
+  &__info {
+    width: 300px;
+  }
+  &__info-title {
+    width: 123px;
+    font-size: 21px;
+    line-height: 24px;
+    @extend %ubuntu-700;
+    margin-bottom: 10px;
+  }
+  &__info-text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
