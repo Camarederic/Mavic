@@ -1,0 +1,69 @@
+.specifications {
+  &__title {
+    margin-bottom: 77px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+  }
+  &__box {
+    width: 280px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: contain;
+    }
+  }
+
+  &__box-2 {
+    margin-top: 140px;
+  }
+  &__box-4 {
+    margin-top: 160px;
+  }
+  &__box-1::before {
+    background-image: url("../images/pointer-1.svg");
+    width: 231px;
+    height: 115px;
+    right: -182px;
+    top: 16px;
+  }
+  &__box-2::before {
+    background-image: url("../images/pointer-2.svg");
+    width: 386px;
+    height: 83px;
+    right: -362px;
+    bottom: 92px;
+  }
+  &__box-3::before {
+    background-image: url("../images/pointer-3.svg");
+    width: 258px;
+    height: 105px;
+    left: -285px;
+    top: 15px;
+  }
+  &__box-4::before {
+    background-image: url("../images/pointer-4.svg");
+    width: 126px;
+    height: 90px;
+    left: -147px;
+    bottom: 112px;
+  }
+  &__box-title {
+    font-size: 21px;
+    line-height: 28px;
+    @extend %ubuntu-700;
+    margin-bottom: 10px;
+  }
+  &__box-text {
+    font-size: 15px;
+    line-height: 18px;
+    @extend %ubuntu-300;
+  }
+}
