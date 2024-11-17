@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 25px;
   }
   &__item {
   }
@@ -31,14 +32,14 @@
     background-image: url("../images/pointer-1.svg");
     width: 231px;
     height: 115px;
-    right: -182px;
+    right: -172px;
     top: 16px;
   }
   &__box-2::before {
     background-image: url("../images/pointer-2.svg");
     width: 386px;
     height: 83px;
-    right: -362px;
+    right: -353px;
     bottom: 92px;
   }
   &__box-3::before {
